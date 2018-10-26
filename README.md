@@ -1,11 +1,15 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+# Saints BJJ
+
+St Andrews Brazilian Jiu Jitsu website - built in React with Gatsby, using the Gatsby 1.0 starter
+
+## How to use this codebase
+
+1. git clone https://github.com/DMeechan/Saints-BJJ.git
+2. cd Saints-BJJ
+3. npm i (or yarn if you have yarn)
+4. npm start (or yarn start if you have yarn)
+
+## Gatsby's default starter
 
 Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. 
 
