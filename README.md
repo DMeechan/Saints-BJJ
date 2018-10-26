@@ -2,12 +2,15 @@
 
 St Andrews Brazilian Jiu Jitsu website - built in React with Gatsby, using the Gatsby 1.0 starter
 
-## How to use this codebase
+## Getting started
 
-1. git clone https://github.com/DMeechan/Saints-BJJ.git
-2. cd Saints-BJJ
-3. npm i (or yarn if you have yarn)
-4. npm start (or yarn start if you have yarn)
+Prerequisite: install Gatsby's command line tool: `npm install --global gatsby-cli` (or `yarn global add gatsby-cli` if you have yarn)
+
+1. `git clone https://github.com/DMeechan/Saints-BJJ.git`
+2. `cd Saints-BJJ`
+3. `gatsby develop`
+4. Then when you're done developing, generate an optimized production build with `gatsby build`
+5. Then you can serve the built site on a local HTML server with `gatsby serve`
 
 ## Gatsby's default starter
 

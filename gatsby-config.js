@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'St Andrews BJJ - Brazilian Jiu Jitsu',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

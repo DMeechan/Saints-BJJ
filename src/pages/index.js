@@ -4,15 +4,26 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Image from '../components/image'
 
+import Sidebar from '../components/sidebar';
+
+import About from '../components/index/about';
+import Contact from '../components/index/contact';
+import Events from '../components/index/events';
+import Intro from '../components/index/intro';
+import Join from '../components/index/join';
+import Schedule from '../components/index/schedule';
+import Who from '../components/index/who';
+
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Sidebar></Sidebar>
+    <Intro></Intro>
+    <About></About>
+    <Who></Who>
+    <Schedule></Schedule>
+    <Join></Join>
+    <Events></Events>
+    <Contact></Contact>
   </Layout>
 )
 
